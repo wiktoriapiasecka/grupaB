@@ -1,0 +1,53 @@
+## Build results
+bin/
+obj/
+
+## Rider / IntelliJ
+.idea/
+*.sln.iml
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+
+## Logs
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## ASP.NET
+wwwroot/uploads/
+
+## Secrets
+appsettings.Development.json
+appsettings.Local.json
+
+## NuGet
+*.nupkg
+packages/
+
+## Visual Studio Code
+.vscode/
+
+## Rider cache
+.idea_modules/
+
+## Test results
+TestResults/
+
+## DotCover
+*.dotCover
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## Entity Framework
+*.mdf
+*.ldf
+
+## Publish output
+publish/
