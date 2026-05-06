@@ -116,7 +116,75 @@ public class MakerRepository : IMakerRepository
 }
 
     public async Task<int> CreateMakerAsync(CreateMakerDto dto)
+{
+    if (string.IsNullOrWhiteSpace(dto.Name))
+        throw new ArgumentException("Maker name is required");
+
+    using var con = new SqlConnection(_connectionString);
+    await con.OpenAsync();
+
+    using var transaction = con.BeginTransaction();
+
+    try
     {
-        throw new NotImplementedException();
+        var insertMakerQuery = @"
+            INSERT INTO Makers (Name)
+            OUTPUT INSERTED.Id
+            VALUES (@Name);
+        ";
+
+        using var makerCmd = new SqlCommand(insertMakerQuery, con, transaction);
+        makerCmd.Parameters.AddWithValue("@Name", dto.Name);
+
+        var makerId = (int)await makerCmd.ExecuteScalarAsync();
+
+        if (dto.Products != null)
+        {
+            foreach (var product in dto.Products)
+            {
+                var getProductTypeQuery = @"
+                    SELECT Id 
+                    FROM ProductTypes 
+                    WHERE Name = @Type;
+                ";
+
+                using var typeCmd = new SqlCommand(getProductTypeQuery, con, transaction);
+                typeCmd.Parameters.AddWithValue("@Type", product.Type);
+
+                var typeIdObj = await typeCmd.ExecuteScalarAsync();
+
+                if (typeIdObj == null)
+                    throw new ArgumentException($"Product type '{product.Type}' does not exist");
+
+                var productTypeId = (int)typeIdObj;
+
+                var insertProductQuery = @"
+                    INSERT INTO Products 
+                    (Name, Description, StickerPrice, ProductTypeId, MakerId)
+                    VALUES 
+                    (@Name, @Description, @StickerPrice, @ProductTypeId, @MakerId);
+                ";
+
+                using var productCmd = new SqlCommand(insertProductQuery, con, transaction);
+                productCmd.Parameters.AddWithValue("@Name", product.Name);
+                productCmd.Parameters.AddWithValue("@Description", 
+                    (object?)product.Description ?? DBNull.Value);
+                productCmd.Parameters.AddWithValue("@StickerPrice", product.StrickerPrice);
+                productCmd.Parameters.AddWithValue("@ProductTypeId", productTypeId);
+                productCmd.Parameters.AddWithValue("@MakerId", makerId);
+
+                await productCmd.ExecuteNonQueryAsync();
+            }
+        }
+
+        transaction.Commit();
+
+        return makerId;
     }
+    catch
+    {
+        transaction.Rollback();
+        throw;
+    }
+}
 }
