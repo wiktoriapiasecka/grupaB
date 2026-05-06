@@ -6,20 +6,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0036c3b-8799-4e3d-9900-c185c2b9fb40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/grupaB/DTOs/Create ProductDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grupaB/DTOs/CreateMakerDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grupaB/DTOs/MakerDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grupaB/DTOs/Product Dto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grupaB/DTOs/ProductTypeDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grupaB/DTOs/VendorDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grupaB/Controllers/MakersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grupaB/Repositories/IMakerRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grupaB/Repositories/MakerRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.grupaB/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.grupaB/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.grupaB/.idea/dataSources/3fb59857-d093-4c3b-a56c-5741ddf5420c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.grupaB/.idea/dataSources/3fb59857-d093-4c3b-a56c-5741ddf5420c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.grupaB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.grupaB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grupaB/grupaB.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/grupaB.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/obj/Debug/net8.0/grupaB.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/obj/Debug/net8.0/grupaB.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/obj/Debug/net8.0/grupaB.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/obj/Debug/net8.0/grupaB.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/obj/Debug/net8.0/grupaB.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/obj/Debug/net8.0/grupaB.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/obj/Debug/net8.0/grupaB.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/obj/Debug/net8.0/grupaB.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/obj/grupaB.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/obj/grupaB.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/obj/grupaB.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/obj/grupaB.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,12 +52,15 @@
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/grupaB/Controllers/MakersController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/grupaB/DTOs/Create ProductDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/grupaB/DTOs/CreateMakerDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/grupaB/DTOs/MakerDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/grupaB/DTOs/Product Dto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/grupaB/DTOs/ProductTypeDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/grupaB/DTOs/VendorDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/grupaB/Repositories/IMakerRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/grupaB/Repositories/MakerRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
@@ -59,6 +77,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.grupaB: http.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -115,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778019581368</updated>
-      <workItem from="1778019582588" duration="4667000" />
+      <workItem from="1778019582588" duration="7288000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -133,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778022547837</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dodano klasy DTOs">
+      <option name="closed" value="true" />
+      <created>1778047474635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778047474635</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +172,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="SQL Server is now ready for client connections" />
-    <option name="LAST_COMMIT_MESSAGE" value="SQL Server is now ready for client connections" />
+    <MESSAGE value="Dodano klasy DTOs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodano klasy DTOs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
