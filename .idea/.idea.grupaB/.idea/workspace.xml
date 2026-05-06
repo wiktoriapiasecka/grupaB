@@ -6,8 +6,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0036c3b-8799-4e3d-9900-c185c2b9fb40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/grupaB/DTOs/Create ProductDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grupaB/DTOs/CreateMakerDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grupaB/DTOs/MakerDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grupaB/DTOs/Product Dto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grupaB/DTOs/ProductTypeDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grupaB/DTOs/VendorDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.grupaB/.idea/dataSources/3fb59857-d093-4c3b-a56c-5741ddf5420c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.grupaB/.idea/dataSources/3fb59857-d093-4c3b-a56c-5741ddf5420c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.grupaB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.grupaB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grupaB/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupaB/grupaB.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/grupaB/grupaB.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +35,18 @@
     "url": "https://github.com/wiktoriapiasecka/grupaB.git",
     "accountId": "f9723c6a-dd8b-47da-b143-9652e6f63b4e"
   }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/grupaB/DTOs/Create ProductDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/grupaB/DTOs/CreateMakerDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/grupaB/DTOs/MakerDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/grupaB/DTOs/Product Dto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/grupaB/DTOs/ProductTypeDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/grupaB/DTOs/VendorDto.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -96,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778019581368</updated>
-      <workItem from="1778019582588" duration="2941000" />
+      <workItem from="1778019582588" duration="4667000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -106,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778020274072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SQL Server is now ready for client connections">
+      <option name="closed" value="true" />
+      <created>1778022547837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778022547837</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +144,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="SQL Server is now ready for client connections" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQL Server is now ready for client connections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
